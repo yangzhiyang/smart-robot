@@ -39,8 +39,8 @@ rl.question('> 阁下尊姓大名：',(callback)=>{
 function ask(){
     rl.question('> 请输入你的问题：',(qusetion)=>{
         if(!qusetion){
+            colors.colorLog('客官请慢走');
             process.exit(0);
-            colors.colorLog('客官请慢走')
         }
         let req = http.request({
             hostname:'www.tuling123.com',
