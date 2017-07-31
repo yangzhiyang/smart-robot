@@ -1,0 +1,17 @@
+{
+  "name": "smart-robot",
+  "version": "1.0.4",
+  "description": "尬聊机器人",
+  "main": "index.js",
+  "bin": {
+    "robot": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "smart-robot"
+  ],
+  "author": "yangzhiyang",
+  "license": "ISC"
+}
