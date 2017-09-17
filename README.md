@@ -8,6 +8,8 @@
 ![](robot.png)
 
 ### 相关参考资料：
-[改变console.log输出颜色](https://stackoverflow.com/questions/9781218/how-to-change-node-jss-console-font-color)
-[readline的用法](https://nodejs.org/api/readline.html#readline_readline_clearscreendown_stream)
-[http.request的用法](https://nodejs.org/api/http.html#http_http_request_options_callback)
+[改变console.log输出颜色](https://stackoverflow.com/questions/9781218/how-to-change-node-jss-console-font-color)       
+
+[readline的用法](https://nodejs.org/api/readline.html#readline_readline_clearscreendown_stream)     
+
+[http.request的用法](https://nodejs.org/api/http.html#http_http_request_options_callback)    
