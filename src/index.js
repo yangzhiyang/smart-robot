@@ -14,9 +14,7 @@ const response = {
 
 function welcome(){
     let welcomeMsg = '请开始你的表演';
-    //for(let i = 0;i<welcomeMsg.length;i++){
-    //    colors.colorLog('----------',welcomeMsg[i],'----------')
-    //}
+
     Array.prototype.forEach.call(welcomeMsg,(it)=>{
         colors.colorLog('----------',it,'----------')
     })
@@ -32,7 +30,7 @@ let name = '';
 
 rl.question('> 阁下尊姓大名：',(callback)=>{
     name = callback;
-    colors.colorLog(`${name}你好,请客官提问!`);
+    colors.colorLog(`${name}你好,久闻大名，请提问!`);
     ask();
 
 })

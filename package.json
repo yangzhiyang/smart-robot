@@ -1,6 +1,6 @@
 {
   "name": "smart-robot",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "尬聊机器人",
   "main": "index.js",
   "bin": {
